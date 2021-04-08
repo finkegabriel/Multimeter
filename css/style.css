@@ -1,0 +1,60 @@
+.container {
+    transform: rotate(0deg);
+    display: inline-table;
+}
+.PVcir {
+    margin-left: -11rem;
+    margin-top: -3.5rem;
+    background-color: transparent;
+    width: 352px;
+    height: 352px;
+    border-radius: 225px;
+    box-shadow: 0 0 8px blue, inset 0 0 96px blue;
+    -webkit-animation: pulsePV 2s linear 1s infinite;
+}
+.PVcir p {} .PWcir {
+    margin-left: -11rem;
+    margin-top: -3.5rem;
+    background-color: transparent;
+    width: 352px;
+    height: 352px;
+    border-radius: 225px;
+    box-shadow: 0 0 8px green, inset 0 0 96px green;
+    -webkit-animation: pulsePV 2s linear 1s infinite;
+}
+.HMcir {
+    margin-left: -11rem;
+    margin-top: -3.5rem;
+    background-color: transparent;
+    width: 352px;
+    height: 352px;
+    border-radius: 225px;
+    box-shadow: 0 0 8px #ffff00, inset 0 0 96px #ffff00;
+    -webkit-animation: pulsePV 2s linear 1s infinite;
+}
+.HMcir p {
+    position: relative;
+    top: 8rem;
+}
+.PWcir p {
+    position: relative;
+    top: 8rem;
+}
+.PVcir p {
+    position: relative;
+    top: 8rem;
+}
+.PVcir h3 {
+    position: relative;
+    top: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.PWcir h3 {
+    position: relative;
+    top: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.HMcir h3 {
+    position: relative;
+    top: 8rem;
+}
